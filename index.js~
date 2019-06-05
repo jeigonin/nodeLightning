@@ -10,7 +10,7 @@ var shell = require('shelljs');
 app.get('/', function (req, res) {
  // function puts(error, stdout, stderr) {}
   var result = shell.exec(command);
-  var final = tableify(JSON.parse(result));
+  var final = tableify(JSON.stringify(result));
   res.send(final);
 })
 
