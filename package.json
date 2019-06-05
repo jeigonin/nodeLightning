@@ -1,0 +1,18 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Listenning cpu miner hashrate",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "Groupe 3",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
